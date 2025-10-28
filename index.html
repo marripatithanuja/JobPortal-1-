@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Portal - Find Your Dream Job</title>
+  <link rel="stylesheet" href="/main.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f4f6fc;
+      margin: 0;
+      color: #222;
+    }
+    header {
+      background: linear-gradient(90deg, #0052cc 60%, #00bcd4 100%);
+      color: #fff;
+      padding: 2rem 0 1rem 0;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin: 0.5rem 0 0 0;
+      font-weight: 400;
+    }
+    .job-logos {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1rem;
+    }
+    .job-logos img {
+      height: 40px;
+      opacity: 0.7;
+      transition: opacity 0.2s;
+    }
+    .job-logos img:hover {
+      opacity: 1;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+      padding: 2rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #e3eafc;
+      color: #555;
+      font-size: 0.95rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Job Portal</h1>
+    <p>Find your dream job from thousands of listings</p>
+    <div class="job-logos">
+      <img src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png" alt="Naukri" title="Naukri" />
+      <img src="https://media.monsterindia.com/monster/assets/logos/monster_logo.svg" alt="Monster" title="Monster" />
+    </div>
+  </header>
+  <main id="root"></main>
+  <footer>
+    &copy; 2025 Job Portal. Inspired by Naukri &amp; Monster.
+  </footer>
+</body>
+</html>
